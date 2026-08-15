@@ -63,7 +63,7 @@ export default function App() {
 
         {/* Done button */}
         <div className="mt-[22px] px-[27px]">
-          <button className="h-[78px] w-full rounded-[11px] border border-[#b9a8db] bg-[#603da0] text-[25px] font-medium tracking-[0.2px] text-white shadow-[0_2px_5px_rgba(0,0,0,0.2)]">
+          <button className="h-[56px] w-full rounded-[11px] border border-[#b9a8db] bg-[#603da0] text-[20px] font-medium tracking-[0.2px] text-white shadow-[0_2px_5px_rgba(0,0,0,0.2)]">
             DONE
           </button>
         </div>
