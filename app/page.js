@@ -10,7 +10,7 @@ export default function App() {
       <div className="mx-auto min-h-screen w-full max-w-[663px] bg-white"> 
          
         {/* Header */} 
-        <div className="flex items-center justify-between px-[27px] pt-[20px]"> 
+        <div className="flex items-center justify-between bg-[#fafafa] px-[27px] py-[20px]"> 
            
           {/* Back */} 
           <button className="flex items-center gap-[9px] text-[20px] font-normal text-[#303236]"> 
@@ -34,8 +34,8 @@ export default function App() {
         </div> 
  
         {/* Success icon */} 
-        <div className="flex justify-center pt-[52px]"> 
-          <div className="flex h-[76px] w-[76px] items-center justify-center rounded-full bg-[#24763b]"> 
+        <div className="flex justify-center pt-[10px] mt-3"> 
+          <div className="flex h-[55px] w-[55px] items-center justify-center rounded-full bg-[#24763b]"> 
             <Check 
               size={48} 
               strokeWidth={2.2} 
@@ -45,12 +45,12 @@ export default function App() {
         </div> 
  
         {/* Main title */} 
-        <h1 className="mt-[34px] text-center text-[31px] font-normal leading-tight text-[#2d2f33]"> 
+        <h1 className="mt-[34px] text-center text-[25px] font-normal leading-tight text-[#2d2f33]"> 
           We have received your request. 
         </h1> 
  
         {/* Description */} 
-        <div className="mx-auto mt-[27px] max-w-[620px] px-[20px] text-center"> 
+        <div className="mx-auto mt-[19px] max-w-[620px] px-[20px] text-center"> 
           <p className="text-[15px] font-normal leading-[1.55] text-[#67696d]"> 
             We have raised your issue with our grievance team and your 
             <br /> 
