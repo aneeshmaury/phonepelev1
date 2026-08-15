@@ -5,7 +5,7 @@ export default function App() {
   const ticketId = Math.floor(10000000 + Math.random() * 90000000);
 
   return ( 
-    <div className="min-h-screen bg-[#fafafa] font-sans text-[#2f3135]"> 
+    <div className="min-h-screen  font-sans text-[#2f3135]"> 
       {/* Main mobile container */} 
       <div className="mx-auto min-h-screen w-full max-w-[663px] bg-[#ffffff]"> 
          
@@ -79,7 +79,7 @@ export default function App() {
               For more details, please check the ticket you’ve created on 
               <br /> 
               your PhonePe app by tapping{" "} 
-              <span className="text-[#303236]"> 
+              <span className="text-[#66686d]"> 
                 ? Help &gt; View Tickets. 
               </span> 
             </p> 
