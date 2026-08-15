@@ -5,9 +5,9 @@ export default function App() {
   const ticketId = Math.floor(10000000 + Math.random() * 90000000);
 
   return ( 
-    <div className="min-h-screen  font-sans text-[#2f3135]"> 
+    <div className="min-h-screen bg-[#fafafa]  font-sans text-[#2f3135]"> 
       {/* Main mobile container */} 
-      <div className="mx-auto min-h-screen w-full max-w-[663px] bg-[#ffffff]"> 
+      <div className="mx-auto min-h-screen w-full max-w-[663px] bg-white"> 
          
         {/* Header */} 
         <div className="flex items-center justify-between px-[27px] pt-[20px]"> 
@@ -71,7 +71,7 @@ export default function App() {
         </div> 
  
         {/* Divider area */} 
-        <div className="mt-[20px] border-t border-[#eeeeee] bg-[#fafafa]"> 
+        <div className="mt-[20px] border-t border-[#eeeeee] bg-white"> 
            
           {/* Bottom information */} 
           <div className="px-[27px] pt-[25px] pb-[20px]"> 
