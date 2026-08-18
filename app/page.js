@@ -37,7 +37,7 @@ export default function App() {
         <div className="flex justify-center pt-[10px] mt-3"> 
           <div className="flex h-[55px] w-[55px] items-center justify-center rounded-full bg-[#24763b]"> 
             <Check 
-              size={48} 
+              size={47} 
               strokeWidth={2.2} 
               className="text-white" 
             /> 
