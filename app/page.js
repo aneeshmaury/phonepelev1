@@ -23,7 +23,7 @@ export default function App() {
         <div className="flex items-center justify-between bg-[#fafafa] px-[27px] py-[18px]">
           
           {/* Back */}
-          <button className="flex items-center gap-[9px] text-[20px] font-semibold text-[#303236]">
+          <button className="flex items-center gap-[6px] text-[20px] font-semibold text-[#303236]">
             <ArrowLeft
               size={20}
               strokeWidth={3.2}
@@ -33,10 +33,10 @@ export default function App() {
           </button>
 
           {/* Logout */}
-          <button className="flex items-center gap-[8px] text-[20px] font-normal text-[#303236]">
+          <button className="flex items-center gap-[6px] text-[20px] font-semibold text-[#303236]">
             <LogOut
               size={20}
-              strokeWidth={2}
+              strokeWidth={3.2}
             />
 
             <span>Logout</span>
