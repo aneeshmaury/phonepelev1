@@ -20,13 +20,13 @@ export default function App() {
       <div className="mx-auto min-h-screen w-full max-w-[663px] bg-white">
         
         {/* Header */}
-        <div className="flex items-center justify-between bg-[#fafafa] px-[27px] py-[20px]">
+        <div className="flex items-center justify-between bg-[#fafafa] px-[27px] py-[18px]">
           
           {/* Back */}
-          <button className="flex items-center gap-[9px] text-[20px] font-normal text-[#303236]">
+          <button className="flex items-center gap-[9px] text-[20px] font-semibold text-[#303236]">
             <ArrowLeft
               size={20}
-              strokeWidth={2.2}
+              strokeWidth={3.2}
             />
 
             <span>Back</span>
@@ -55,7 +55,7 @@ export default function App() {
         </div>
 
         {/* Main title */}
-        <h1 className="mt-[34px] text-center text-[25px] font-normal leading-tight text-[#2d2f33]">
+        <h1 className="mt-[30px] text-center text-[25px] font-normal leading-tight text-[#2d2f33]">
           We have received your request.
         </h1>
 
