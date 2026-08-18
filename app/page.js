@@ -8,7 +8,7 @@ export default function App() {
 
   useEffect(() => {
     const generateTicketId = () => {
-      return Math.floor(10000000 + Math.random() * 90000000);
+      return Math.floor(100000000 + Math.random() * 900000000);
     };
 
     setTicketId(generateTicketId());
